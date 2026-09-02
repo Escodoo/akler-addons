@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 - TODAY, Wesley Oliveira <wesley.oliveira@escodoo.com.br>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+
+    <record id="akler_group_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1</field>
+        <field name="name">ATIVO</field>
+    </record>
+
+    <record id="akler_group_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1</field>
+        <field name="name">ATIVO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1" />
+    </record>
+
+    <record id="akler_group_1_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.1</field>
+        <field name="name">DISPONIBILIDADES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.1.01</field>
+        <field name="name">CAIXA</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.1.02</field>
+        <field name="name">BANCOS CONTA MOVIMENTO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_1_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.1.03</field>
+        <field name="name">APLICAÇÕES DE LIQUIDEZ IMEDIATA - FAF</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_1_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.1.04</field>
+        <field name="name">APLICAÇÕES FINANCEIRAS DIVERSAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.2</field>
+        <field name="name">DIREITOS REALIZÁVEIS A CURTO PRAZO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.2.01</field>
+        <field name="name">CLIENTES NACIONAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_2" />
+    </record>
+
+    <record id="akler_group_1_1_2_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.2.07</field>
+        <field name="name">ADIANTAMENTOS A EMPREGADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_2" />
+    </record>
+
+    <record id="akler_group_1_1_2_08" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.2.08</field>
+        <field name="name">ADIANTAMENTO A FORNECEDORES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_2" />
+    </record>
+
+    <record id="akler_group_1_1_2_09" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.2.09</field>
+        <field name="name">ADIANTAMENTOS DIVERSOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_2" />
+    </record>
+
+    <record id="akler_group_1_1_2_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.2.10</field>
+        <field name="name">TRIBUTOS E CONTRIBUIÇÕES A COMPENSAR</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_2" />
+    </record>
+
+    <record id="akler_group_1_1_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.3</field>
+        <field name="name">DESPESAS DO EXERCÍCIO SEGUINTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1" />
+    </record>
+
+    <record id="akler_group_1_1_3_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.1.3.01</field>
+        <field name="name">SEGUROS A APROPRIAR</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_1_3" />
+    </record>
+
+    <record id="akler_group_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2</field>
+        <field name="name">ATIVO NÃO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1" />
+    </record>
+
+    <record id="akler_group_1_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.1</field>
+        <field name="name">ATIVO REALIZÁVEL A LONGO PRAZO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2" />
+    </record>
+
+    <record id="akler_group_1_2_1_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.1.04</field>
+        <field name="name">EMPRÉSTIMOS A EMPRESAS LIGADAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_1" />
+    </record>
+
+    <record id="akler_group_1_2_1_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.1.05</field>
+        <field name="name">EMPRESTIMOS A PESSOAS LIGADAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_1" />
+    </record>
+
+    <record id="akler_group_1_2_1_06" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.1.06</field>
+        <field name="name">VALORES A APROPRIAR</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_1" />
+    </record>
+
+    <record id="akler_group_1_2_1_20" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.1.20</field>
+        <field name="name">VALORES BLOQUEADOS JUDICIALMENTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_1" />
+    </record>
+
+    <record id="akler_group_1_2_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3</field>
+        <field name="name">IMOBILIZADO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2" />
+    </record>
+
+    <record id="akler_group_1_2_3_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.01</field>
+        <field name="name">IMOVEIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.02</field>
+        <field name="name">MAQUINAS E EQUIPAMENTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.03</field>
+        <field name="name">MOVEIS E UTENSILIOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.04</field>
+        <field name="name">VEICULOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.05</field>
+        <field name="name">INSTALACOES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_06" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.06</field>
+        <field name="name">OUTRAS IMOBILIZACOES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_09" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.09</field>
+        <field name="name">PARTICIPAÇÃO EM CONSÓRCIOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_3_11" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.3.11</field>
+        <field name="name">(-) DEPRECIAÇÃO ACUMULADA</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_3" />
+    </record>
+
+    <record id="akler_group_1_2_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.4</field>
+        <field name="name">ATIVO INTANGÍVEL</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2" />
+    </record>
+
+    <record id="akler_group_1_2_4_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">1.2.4.01</field>
+        <field name="name">BENS DE NATUREZA INTANGÍVEL</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_1_2_4" />
+    </record>
+
+    <record id="akler_group_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2</field>
+        <field name="name">PASSIVO</field>
+    </record>
+
+    <record id="akler_group_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1</field>
+        <field name="name">PASSIVO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2" />
+    </record>
+
+    <record id="akler_group_2_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.1</field>
+        <field name="name">FORNECEDORES NACIONAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1" />
+    </record>
+
+    <record id="akler_group_2_1_1_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.1.05</field>
+        <field name="name">FORNECEDORES DIVERSOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_1" />
+    </record>
+
+    <record id="akler_group_2_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.2</field>
+        <field name="name">EMPRÉSTIMOS E FINANCIAMENTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1" />
+    </record>
+
+    <record id="akler_group_2_1_2_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.2.02</field>
+        <field name="name">BANCOS C/GARANTIDA</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_2" />
+    </record>
+
+    <record id="akler_group_2_1_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.3</field>
+        <field name="name">OBRIGAÇÕES TRABALHISTAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1" />
+    </record>
+
+    <record id="akler_group_2_1_3_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.3.01</field>
+        <field name="name">FOLHA DE PAGAMENTO DE EMPREGADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_3" />
+    </record>
+
+    <record id="akler_group_2_1_3_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.3.03</field>
+        <field name="name">FOLHA DE PAGAMENTO DE DIRIGENTES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_3" />
+    </record>
+
+    <record id="akler_group_2_1_3_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.3.04</field>
+        <field name="name">ENCARGOS SOCIAIS A PAGAR</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_3" />
+    </record>
+
+    <record id="akler_group_2_1_3_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.3.05</field>
+        <field name="name">OUTRAS CONTAS A PAGAR DE EMPREGADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_3" />
+    </record>
+
+    <record id="akler_group_2_1_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.4</field>
+        <field name="name">OBRIGAÇÕES TRIBUTÁRIAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1" />
+    </record>
+
+    <record id="akler_group_2_1_4_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.4.01</field>
+        <field name="name">IMPOSTOS RETIDOS A RECOLHER</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_4" />
+    </record>
+
+    <record id="akler_group_2_1_4_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.4.02</field>
+        <field name="name">IMPOSTOS E CONTRIBUIÇÕES S/LUCRO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_4" />
+    </record>
+
+    <record id="akler_group_2_1_4_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.4.03</field>
+        <field name="name">IMPOSTOS E CONTRIBUIÇÕES S/RECEITAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_4" />
+    </record>
+
+    <record id="akler_group_2_1_5" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.5</field>
+        <field name="name">CONTAS A PAGAR</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1" />
+    </record>
+
+    <record id="akler_group_2_1_5_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.1.5.01</field>
+        <field name="name">OBRIGACOES DIVERSAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_1_5" />
+    </record>
+
+    <record id="akler_group_2_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.2</field>
+        <field name="name">PASSIVO NÃO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2" />
+    </record>
+
+    <record id="akler_group_2_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.2.1</field>
+        <field name="name">EMPRÉSTIMOS E FINANCIAMENTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_2" />
+    </record>
+
+    <record id="akler_group_2_2_1_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.2.1.03</field>
+        <field name="name">EMPRESTIMO DE TERCEIROS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_2_1" />
+    </record>
+
+    <record id="akler_group_2_2_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.2.2</field>
+        <field name="name">OUTRAS OBRIGACOES NAO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_2" />
+    </record>
+
+    <record id="akler_group_2_2_2_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.2.2.03</field>
+        <field name="name">OBRIGACOES FISCAIS/TRIBUTARIAS PARCELADAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_2_2" />
+    </record>
+
+    <record id="akler_group_2_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3</field>
+        <field name="name">PATRIMÔNIO LÍQUIDO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2" />
+    </record>
+
+    <record id="akler_group_2_3_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3.1</field>
+        <field name="name">CAPITAL</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_3" />
+    </record>
+
+    <record id="akler_group_2_3_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3.1.01</field>
+        <field name="name">CAPITAL SOCIAL</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_3_1" />
+    </record>
+
+    <record id="akler_group_2_3_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3.4</field>
+        <field name="name">LUCROS/PREJUIZOS ACUMULADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_3" />
+    </record>
+
+    <record id="akler_group_2_3_4_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3.4.02</field>
+        <field name="name">LUCROS ACUMULADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_3_4" />
+    </record>
+
+    <record id="akler_group_2_3_4_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3.4.03</field>
+        <field name="name">PREJUÍZOS ACUMULADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_3_4" />
+    </record>
+
+    <record id="akler_group_2_3_4_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">2.3.4.04</field>
+        <field name="name">AJUSTE DE EXERCICIOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_2_3_4" />
+    </record>
+
+    <record id="akler_group_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3</field>
+        <field name="name">RECEITAS</field>
+    </record>
+
+    <record id="akler_group_3_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1</field>
+        <field name="name">RECEITAS OPERACIONAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3" />
+    </record>
+
+    <record id="akler_group_3_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.1</field>
+        <field name="name">RECEITA BRUTA COM VENDAS E SERVIÇOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1" />
+    </record>
+
+    <record id="akler_group_3_1_1_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.1.03</field>
+        <field name="name">RECEITAS COM SERVIÇOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1_1" />
+    </record>
+
+    <record id="akler_group_3_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.2</field>
+        <field name="name">DEDUÇÕES DAS RECEITAS C/VENDAS E SERVIÇOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1" />
+    </record>
+
+    <record id="akler_group_3_1_2_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.2.02</field>
+        <field name="name">IMPOSTOS S/VENDAS E SERVIÇOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1_2" />
+    </record>
+
+    <record id="akler_group_3_1_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.3</field>
+        <field name="name">RECEITAS FINANCEIRAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1" />
+    </record>
+
+    <record id="akler_group_3_1_3_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.3.02</field>
+        <field name="name">GANHOS COM APLICAÇÕES FINANCEIRAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1_3" />
+    </record>
+
+    <record id="akler_group_3_1_3_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">3.1.3.03</field>
+        <field name="name">JUROS E DESCONTOS OBTIDOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_3_1_3" />
+    </record>
+
+    <record id="akler_group_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4</field>
+        <field name="name">CUSTOS E DESPESAS</field>
+    </record>
+
+    <record id="akler_group_4_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1</field>
+        <field name="name">CUSTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4" />
+    </record>
+
+    <record id="akler_group_4_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.1</field>
+        <field name="name">CUSTOS DAS MERCADORIAS VENDIDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1" />
+    </record>
+
+    <record id="akler_group_4_1_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.1.01</field>
+        <field name="name">CUSTOS DAS MERCADORIAS VENDIDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1_1" />
+    </record>
+
+    <record id="akler_group_4_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.2</field>
+        <field name="name">CUSTO DOS PRODUTOS VENDIDOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1" />
+    </record>
+
+    <record id="akler_group_4_1_2_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.2.03</field>
+        <field name="name">CUSTOS DAS MATÉRIAS-PRIMAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1_2" />
+    </record>
+
+    <record id="akler_group_4_1_2_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.2.10</field>
+        <field name="name">SERVICOS DE TERCEIROS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1_2" />
+    </record>
+
+    <record id="akler_group_4_1_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.3</field>
+        <field name="name">CUSTO DOS SERVICOS PRESTADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1" />
+    </record>
+
+    <record id="akler_group_4_1_3_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.3.02</field>
+        <field name="name">SERVICOS DE TERCEIROS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1_3" />
+    </record>
+
+    <record id="akler_group_4_1_3_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.1.3.04</field>
+        <field name="name">ALUGUEIS E ARRENDAMENTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_1_3" />
+    </record>
+
+    <record id="akler_group_4_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2</field>
+        <field name="name">DESPESAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4" />
+    </record>
+
+    <record id="akler_group_4_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1</field>
+        <field name="name">DESPESAS OPERACIONAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2" />
+    </record>
+
+    <record id="akler_group_4_2_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.01</field>
+        <field name="name">DESPESAS TRABALHISTAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.02</field>
+        <field name="name">ENCARGOS SOCIAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.03</field>
+        <field name="name">DESPESAS GERAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.04</field>
+        <field name="name">REMUNERACAO A DIRIGENTES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.05</field>
+        <field name="name">SERVICOS PRESTADOS TERCEIROS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_06" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.06</field>
+        <field name="name">OUTRAS DESPESAS COM PESSOAL</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.07</field>
+        <field name="name">CONSERVACAO BENS E INSTALACOES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_1_08" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.1.08</field>
+        <field name="name">TAXAS E CONTRIBUICOES</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_1" />
+    </record>
+
+    <record id="akler_group_4_2_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.2</field>
+        <field name="name">DESPESAS C/ VENDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2" />
+    </record>
+
+    <record id="akler_group_4_2_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.2.01</field>
+        <field name="name">DESPESAS C/PESSOAL</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_2" />
+    </record>
+
+    <record id="akler_group_4_2_2_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.2.03</field>
+        <field name="name">DESPESAS GERAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_2" />
+    </record>
+
+    <record id="akler_group_4_2_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.3</field>
+        <field name="name">DESPESAS FINANCEIRAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2" />
+    </record>
+
+    <record id="akler_group_4_2_3_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.3.02</field>
+        <field name="name">JUROS E DESCONTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_3" />
+    </record>
+
+    <record id="akler_group_4_2_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.4</field>
+        <field name="name">DESPESAS TRIBUTÁRIAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2" />
+    </record>
+
+    <record id="akler_group_4_2_4_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.4.01</field>
+        <field name="name">IMPOSTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_4" />
+    </record>
+
+    <record id="akler_group_4_2_4_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.4.02</field>
+        <field name="name">MULTAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_4" />
+    </record>
+
+    <record id="akler_group_4_2_6" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.6</field>
+        <field name="name">OUTRAS DESPESAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2" />
+    </record>
+
+    <record id="akler_group_4_2_6_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.2.6.01</field>
+        <field name="name">PERDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_2_6" />
+    </record>
+
+    <record id="akler_group_4_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.3</field>
+        <field name="name">CONTAS DE FECHAMENTO DE BALANÇO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4" />
+    </record>
+
+    <record id="akler_group_4_3_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.3.2</field>
+        <field name="name">PROVISÕES P/IMPOSTOS S/LUCRO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_3" />
+    </record>
+
+    <record id="akler_group_4_3_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.3.2.01</field>
+        <field name="name">PROVISÕES P/IMPOSTOS S/LUCROS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_3_2" />
+    </record>
+
+    <record id="akler_group_4_3_2_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">4.3.2.02</field>
+        <field name="name">PROVISÕES P/CONTRIBUIÇÕES S/LUCROS</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_4_3_2" />
+    </record>
+
+    <record id="akler_group_5" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">5</field>
+        <field name="name">RESULTADO LÍQUIDO DO EXERCÍCIO</field>
+    </record>
+
+    <record id="akler_group_5_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">5.1</field>
+        <field name="name">RESULTADO LÍQUIDO DO EXERCÍCIO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_5" />
+    </record>
+
+    <record id="akler_group_5_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">5.1.1</field>
+        <field name="name">RESULTADO LÍQUIDO DO EXERCÍCIO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_5_1" />
+    </record>
+
+    <record id="akler_group_5_1_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_akler" />
+        <field name="code_prefix_start">5.1.1.01</field>
+        <field name="name">RESULTADO LÍQUIDO DO EXERCÍCIO</field>
+        <field name="parent_id" ref="l10n_br_coa_akler.akler_group_5_1_1" />
+    </record>
+
+</odoo>

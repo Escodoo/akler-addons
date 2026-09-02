@@ -1,0 +1,171 @@
+id,code,name,note,account_type,reconcile,chart_template_id:id
+account_template_akler_1_1_1_01_001,1.1.1.01.001,Caixa,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_001,1.1.1.02.001,Banco do Brasil S/A,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_006,1.1.1.02.006,Santander,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_008,1.1.1.02.008,Sicoob,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_009,1.1.1.02.009,Banestes,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_020,1.1.1.02.020,Banco Sicoob 2,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_044,1.1.1.02.044,Banco XP,,asset_cash,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_02_999,1.1.1.02.999,Transferencia de Liquidez,,asset_cash,1,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_03_007,1.1.1.03.007,Aplicacoes CDB,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_03_010,1.1.1.03.010,Aplicacoes BB Rende facil,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_03_013,1.1.1.03.013,Aplicacao Fundo de Investimento Santander,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_005,1.1.1.04.005,Aplicacoes Sicoob,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_012,1.1.1.04.012,Aplicacao Santander,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_014,1.1.1.04.014,Aplicacoes Sicoob 2,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_016,1.1.1.04.016,XP Investimentos,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_041,1.1.1.04.041,XP Investimentos Renda Fixa,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_042,1.1.1.04.042,XP Investimentos Compromissadas,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_043,1.1.1.04.043,XP Investimentos Ações,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_1_04_044,1.1.1.04.044,XP Investimentos Proventos,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_01_002,1.1.2.01.002,Clientes Diversos,,asset_receivable,1,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_07_001,1.1.2.07.001,Adiantamentos de Salarios,,asset_prepayments,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_07_006,1.1.2.07.006,Adiantamento Férias,,asset_prepayments,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_08_001,1.1.2.08.001,Adiantamento a Fornecedores,,asset_prepayments,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_08_002,1.1.2.08.002,Adiantamento a Fornecedores Diversos,,asset_prepayments,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_09_001,1.1.2.09.001,Adiantamento a Socios,,asset_prepayments,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_09_005,1.1.2.09.005,Outros Adiantamentos,,asset_prepayments,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_003,1.1.2.10.003,IRRF a Compensar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_004,1.1.2.10.004,IRRF s/Aplicacoes a Compensar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_006,1.1.2.10.006,PIS a Compensar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_007,1.1.2.10.007,COFINS a Compensar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_008,1.1.2.10.008,CSLL a Compensar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_011,1.1.2.10.011,ISS a Compensar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_2_10_014,1.1.2.10.014,Outros Impostos a Recuperar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_1_3_01_004,1.1.3.01.004,Seguros a Apropriar,,asset_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_1_04_002,1.2.1.04.002,Emprestimos a Empresas Ligadas Longo Prazo,,asset_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_1_05_001,1.2.1.05.001,Emprestimos a Pessoas Ligadas Longo Prazo,,asset_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_1_06_001,1.2.1.06.001,Juros a Amortizar,,asset_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_1_20_001,1.2.1.20.001,Titulo de Capitalizacao,,asset_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_01_004,1.2.3.01.004,Imóveis,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_01_011,1.2.3.01.011,Edificacoes,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_02_001,1.2.3.02.001,Máquinas e Equipamentos,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_02_006,1.2.3.02.006,Computadores e Periféricos,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_02_019,1.2.3.02.019,Equipamentos de Telefonia,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_02_020,1.2.3.02.020,Equipamentos de Seguranca,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_02_021,1.2.3.02.021,Equipamentos de Som e Video,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_03_002,1.2.3.03.002,Móveis e Utensílios,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_03_018,1.2.3.03.018,Maquinas e Equipamentos para Escritorio,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_04_005,1.2.3.04.005,Veículos,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_05_016,1.2.3.05.016,Instalacoes,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_06_010,1.2.3.06.010,Benfeitorias Em Imóveis de Terceiros,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_06_022,1.2.3.06.022,Leasing,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_06_023,1.2.3.06.023,Adiantamento para Imobilizações,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_06_025,1.2.3.06.025,Outras Imobilizacoes,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_09_001,1.2.3.09.001,Consórcio,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_11_001,1.2.3.11.001,(-) Máquinas e Equipamentos - Depreciação,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_11_002,1.2.3.11.002,(-) Móveis e Utensílios - Depreciação,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_11_005,1.2.3.11.005,(-) Veículos - Depreciação,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_11_006,1.2.3.11.006,(-) Computadores Periféricos - Depreciação,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_11_007,1.2.3.11.007,(-) Instalacoes,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_3_11_030,1.2.3.11.030,(-) Outras Depreciacoes,,asset_fixed,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_1_2_4_01_006,1.2.4.01.006,Softwares ou Programas de Computador,,asset_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_1_05_001,2.1.1.05.001,Fornecedores Diversos,,liability_payable,1,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_2_02_016,2.1.2.02.016,Conta Garantida XP,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_01_001,2.1.3.01.001,Salarios a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_01_002,2.1.3.01.002,Férias a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_01_003,2.1.3.01.003,Rescisoes a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_03_001,2.1.3.03.001,Pro-Labore a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_04_001,2.1.3.04.001,I.N.S.S. a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_04_002,2.1.3.04.002,F.G.T.S. a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_04_003,2.1.3.04.003,Contribuicoes Sindicais a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_04_004,2.1.3.04.004,GRRF a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_3_05_003,2.1.3.05.003,Pensao Alimenticia a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_01_001,2.1.4.01.001,IRRF a Recolher - Pessoa Física,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_01_002,2.1.4.01.002,IRRF a Recolher - Pessoa Jurídica,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_01_003,2.1.4.01.003,ISS Retido a Recolher,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_01_009,2.1.4.01.009,Impostos Federais a Recolher,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_02_001,2.1.4.02.001,IRPJ a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_02_003,2.1.4.02.003,Contribuicao Social s/Lucro Presumido a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_03_002,2.1.4.03.002,COFINS a Recolher,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_03_003,2.1.4.03.003,PIS a Recolher,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_4_03_007,2.1.4.03.007,ISSQN a Pagar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_1_5_01_004,2.1.5.01.004,Receitas a Apropriar,,liability_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_2_1_03_001,2.2.1.03.001,Emprestimo de Terceiros Nao Circulante,,liability_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_2_2_03_001,2.2.2.03.001,ICMS Parcelado,,liability_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_2_2_03_006,2.2.2.03.006,SIMPLES Parcelado,,liability_non_current,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_3_1_01_002,2.3.1.01.002,Capital Social Integralizado,,equity,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_3_4_02_001,2.3.4.02.001,Lucros Acumulados,,equity,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_3_4_02_002,2.3.4.02.002,Lucros Distribuidos,,equity,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_3_4_03_001,2.3.4.03.001,Prejuízos Acumulados,,equity,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_2_3_4_04_002,2.3.4.04.002,Ajustes de Exercícios Anteriores,,equity,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_3_1_1_03_002,3.1.1.03.002,Serviços Prestados a Prazo,,income,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_3_1_2_02_002,3.1.2.02.002,PIS S/Vendas e Serviços,,income,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_3_1_2_02_003,3.1.2.02.003,COFINS S/Vendas e Serviços,,income,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_3_1_2_02_007,3.1.2.02.007,ISSQN s/Serviços,,income,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_3_1_3_02_001,3.1.3.02.001,Rendimentos de Aplicação do FAF,,income,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_3_1_3_03_002,3.1.3.03.002,Descontos Obtidos,,income,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_1_01_002,4.1.1.01.002,Compra de Mercadoria para Revenda,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_1_01_006,4.1.1.01.006,Fretes S/ Compras,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_1_01_009,4.1.1.01.009,(-) Devolução de Compras,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_1_01_012,4.1.1.01.012,(-) Descontos / Abatimentos Incondicionais,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_2_03_002,4.1.2.03.002,Compra de Matéria Prima e Insumos,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_2_10_004,4.1.2.10.004,Fretes e Carretos,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_3_02_005,4.1.3.02.005,Servicos Prestados,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_3_02_010,4.1.3.02.010,Servicos de Instalacoes,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_1_3_04_004,4.1.3.04.004,Locacao de Bens Moveis,,expense_direct_cost,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_001,4.2.1.01.001,Salarios,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_004,4.2.1.01.004,Férias,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_005,4.2.1.01.005,13º Salário,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_006,4.2.1.01.006,Acordos e Quitacoes,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_007,4.2.1.01.007,"Adicionais, Premios e Gratificacoes",,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_010,4.2.1.01.010,Comissoes,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_011,4.2.1.01.011,Ajuda de Custo,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_01_014,4.2.1.01.014,Reembolso,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_02_001,4.2.1.02.001,I.N.S.S.,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_02_002,4.2.1.02.002,F.G.T.S.,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_02_003,4.2.1.02.003,Multa Rescisória FGTS,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_002,4.2.1.03.002,Aluguel,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_003,4.2.1.03.003,Agua e Esgoto,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_004,4.2.1.03.004,Energia Eletrica,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_011,4.2.1.03.011,Associacoes de Classe/Sindicato Patronal,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_012,4.2.1.03.012,Correios e Malotes,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_014,4.2.1.03.014,Propaganda e Publicidade,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_022,4.2.1.03.022,Telefone,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_026,4.2.1.03.026,Pedagios,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_028,4.2.1.03.028,Viagens e Estadias,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_029,4.2.1.03.029,Confraternizacoes,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_031,4.2.1.03.031,Condução,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_032,4.2.1.03.032,Seguros,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_034,4.2.1.03.034,Royalties e Franquias,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_035,4.2.1.03.035,Material de Uso e Consumo,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_038,4.2.1.03.038,Despesas c/Condominio,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_042,4.2.1.03.042,Licenca de uso de Sistemas,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_045,4.2.1.03.045,Despesas c/Cartorio,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_046,4.2.1.03.046,Despesas Copa/Cozinha,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_052,4.2.1.03.052,Cursos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_03_055,4.2.1.03.055,Patrocinio,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_04_001,4.2.1.04.001,Pró-Labore,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_002,4.2.1.05.002,Servicos de Terceiros - Pessoa Jurídica,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_003,4.2.1.05.003,Assistencia Contabil,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_005,4.2.1.05.005,Fretes e Carretos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_007,4.2.1.05.007,Assinatura/Servicos de Internet,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_008,4.2.1.05.008,Vigilancia e Seguranca,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_009,4.2.1.05.009,Locacao de Equipamentos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_011,4.2.1.05.011,Servicos de Informatica,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_012,4.2.1.05.012,Servicos de Instalacoes,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_013,4.2.1.05.013,Servicos de Impressao,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_014,4.2.1.05.014,Assistencia Juridica,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_05_015,4.2.1.05.015,Locacao de Veiculos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_06_001,4.2.1.06.001,Assistencia Medica,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_06_002,4.2.1.06.002,Alimentacao,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_06_004,4.2.1.06.004,Transporte de Empregados,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_06_005,4.2.1.06.005,Vestimentas e Uniformes,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_06_006,4.2.1.06.006,Exames Admissionais/Demissionais,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_07_004,4.2.1.07.004,Manutencao/Conservacao de Veiculos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_07_007,4.2.1.07.007,Manutencao de Maquinas e Equipamentos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_1_08_003,4.2.1.08.003,Taxas Contribuicoes Diversas,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_2_01_007,4.2.2.01.007,Hora Extra,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_2_03_001,4.2.2.03.001,Material de Uso e Consumo,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_3_02_001,4.2.3.02.001,Juros Passivos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_3_02_004,4.2.3.02.004,Despesas Bancarias,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_4_01_001,4.2.4.01.001,IOF,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_4_01_003,4.2.4.01.003,IPTU,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_4_01_004,4.2.4.01.004,IPVA,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_4_01_007,4.2.4.01.007,ICMS Substituicao Tributaria,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_4_01_008,4.2.4.01.008,ICMS Diferencial de Aliquota,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_4_02_004,4.2.4.02.004,Multas,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_2_6_01_007,4.2.6.01.007,Perdas/Creditos,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_3_2_01_001,4.3.2.01.001,Provisão P/ IRPJ,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_4_3_2_02_001,4.3.2.02.001,Provisão P/ Contribuição Social,,expense,0,l10n_br_coa_akler.account_template_akler
+account_template_akler_5_1_1_01_001,5.1.1.01.001,Resultado Líquido do Exercício,,equity_unaffected,0,l10n_br_coa_akler.account_template_akler
